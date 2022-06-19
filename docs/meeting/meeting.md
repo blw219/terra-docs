@@ -4,7 +4,10 @@
 
 Overview of KEY decisions taken:
 
-- Tech stack
+- Main tech stack - MERN stack is chosen
+- UI design - confirmed design with Terra
+- Analytics - pick few main areas to work on (e.g. sleep, diet and heart rate)
+- Database - confirmed MongoDB data structure to store user data
 
 <br />
 
