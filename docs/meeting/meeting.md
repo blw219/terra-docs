@@ -226,6 +226,27 @@ How do we want to analyse single datasets (lowkey feels like a Spotify wrapped t
 
 <br />
 
+# 23th May 2022 - Internal Meeting
+
+### To do:
+
+* Login page with terra's logo 
+* Adjust the 3 graphs done 
+
+**Command bar**:
+* Dashboard done 
+* Authentification/ Terrra widget done 
+* Login done 
+* Settings done 
+
+**Others**:
+* Welcome bar design done 
+* Terra logo instead of the ones on the page
+* Color scheme : terra's colors done 
+
+
+<br />
+
 # 27th May 2022 - Meeting with Terra
  
 ## Things to do: 
