@@ -2,3 +2,4 @@
 
 
 - [Meeting minutes](meeting/meeting.md)
+- [Code & Resources](resource/resource.md)
