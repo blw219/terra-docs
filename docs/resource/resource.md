@@ -9,8 +9,7 @@
 - [https://github.com/facebook/create-react-app](https://github.com/facebook/create-react-app)
 
 ## Authentication Setup
-- [https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications
-](https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications
+- [https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications](https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications
 )
 
 ## NodeJS Tutorial
