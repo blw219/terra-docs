@@ -7,8 +7,4 @@
 - [Specifications](specifiations/specifications.md)
 - [Health and Wellbeing impact](meeting/meeting.md)
 - [Meeting minutes](meeting/meeting.md)
-<<<<<<< Updated upstream
 - [Code & Resources](resource/resource.md)
-=======
-
->>>>>>> Stashed changes
