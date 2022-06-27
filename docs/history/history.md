@@ -114,6 +114,8 @@ terra's diagram https://docs.tryterra.co/docs/quick-setup
 https://docs.tryterra.co/reference/rest-authentication
 
 ![widget terra](/images/widget-terra.svg)
+
+
 3-basic visual data representation 
 sc from gc
 4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generate an id through a hash and store it with wearable id show code) link the ressource zionteams
