@@ -113,7 +113,7 @@ SC zion
 terra's diagram https://docs.tryterra.co/docs/quick-setup 
 https://docs.tryterra.co/reference/rest-authentication
 
-![widget terra](../../images/database1.png)
+![widget terra](../../images/database1.png?raw=true)
 
 
 3-basic visual data representation 
