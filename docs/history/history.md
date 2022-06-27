@@ -91,6 +91,7 @@ Sleep pattern  https://ouraring.com/blog/sleep-score/
 
 Weight ? Compared to
 Heart rate with performance 
+
 week 6
 Use Tailwind for premade spinners when loading data
 
@@ -103,3 +104,24 @@ Deliverables:
 	• Data Analysis: observations, meal sleep, sleep vs alcohol, trends between different data
 	• Fix Issues
 Matching designs
+
+
+
+1-Basic Design (front end :log in back end : stores the log in details)
+SC zion
+2- authentication flow : getting the widget open and verifying connected wearables
+terra's diagram https://docs.tryterra.co/docs/quick-setup 
+https://docs.tryterra.co/reference/rest-authentication
+3-basic visual data representation 
+sc from gc
+4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generate an id through a hash and store it with wearable id show code) link the ressource zionteams
+database 1: storring the data to be repeated to display
+2:connecting our unique iids to the all of the users wearable ids
+5- Redesign with template habitdash
+show new design and template given by alex
+without suggestions
+
+7- Health observations and suggestions 
+sc suggestions 
+8-analytics pages for further analysis and vsualisation 
+sc
