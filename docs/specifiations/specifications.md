@@ -6,9 +6,8 @@ The task is left up to us to decide how we use data available to us and what ana
 
  The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website. This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on factors to consider:
 
-**Accurate and relevant data**:
+**Accurate and relevant data**
 
+**Straight forward User Interface in adequation with terra's design**
 
-**Straight forward User Interface in adequation with terra's design**:
-
-**Interesting  dashboard for health insights**:
+**Interesting  dashboard for health insights**
