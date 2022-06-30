@@ -19,9 +19,7 @@ Go back to the main Dashboard page and observe your health analysis on the main 
 Clone the repository to your local machine using git clone (Insert URL here) .
 Go into the project directory.
 
-## Available Scripts
-
-In the project directory, you can run:
+## Run these commands in terminal
 
 ### `npm install`
 
@@ -46,3 +44,9 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Once Hosted
+
+Once you can see the webpage in your browser, login as a guest
+A terra widget will open and allow you to connect your wearable accounts to the dashboard
+Once youve connected at least one wearable, you can view your health analysis data in the dashboard main page
