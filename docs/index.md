@@ -2,7 +2,7 @@
 
 
 - [Context](Context/context.md)
-- [How To run](howtorun/howtorun.md)
+- [How To run](Howtorun/howtorun.md)
 - [Design History](history/history.md)
 - [Specifications](specifiations/specifications.md)
 - [Health and Wellbeing impact](meeting/meeting.md)
