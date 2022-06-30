@@ -2,6 +2,16 @@
 
 # Code and Resources
 
+
+## Unique User Session ID
+![image](https://user-images.githubusercontent.com/59968760/176776662-846d01df-5243-4c5e-8c77-7c4dcc99e32d.png)
+
+- Each time a user starts a session by going to the website in their brower, a unique session ID is created and passed within the states of the React DOM
+- This ID is created using a sha256 Hash, using the Current time and a random pertubated string as a key, meaning 2 users would have to access the website at the exact same second ( very unlikely ) and be given the exact same random string, to have the same ID. This is quite impossible
+- The use of a Hashing ID is to anonamize their userID and the connected wearables on the database, IN CASE of a breach or leak, instead of having a simple 0-x ID created based on the number of registered users, and to provide users with privacy guarantees
+
+## User Suggestions
+
 ## Terra Integration
 - [https://docs.tryterra.co/integrating-with-terra](https://docs.tryterra.co/integrating-with-terra)
 
