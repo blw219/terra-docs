@@ -2,22 +2,24 @@
 
 # Context
 
-The terra project 
+## Terra 
 
-- What's terra?
-Terra is a startup which raised $2.8M in 2O21. The company provides a unfied API to connect all wearables. Health being a huge subject , it became importan for users to have an easy access to their data from multiple sources such as Garmin, Fitbit and Oura, in different forms and technologies. That's  terra's goal to  make sense of data, and give access to it in a structured manner, no matter the source.
+### What is Terra?
+[Terra](https://tryterra.co/) is a startup which raised $2.8M in 2O21. The company provides a unfied API to connect all wearables. Health being a huge subject , it became importan for users to have an easy access to their data from multiple sources such as Garmin, Fitbit and Oura, in different forms and technologies. That's  terra's goal to  make sense of data, and give access to it in a structured manner, no matter the source.
 
-- How it works
-The user is able to choose their service login which allow heir health data to be automatically connected.
+[Terra](https://tryterra.co/) is a tech startup based in London which aims to provide developers with an easier way to access their users' wearable data across multiple platforms. They have raised [$2.8 million in funding](https://www.crunchbase.com/organization/terra-5293/company_financials) since their foundation at the start of 2021. Their goal is to integrate with as many sources as possible to remove the tedium of doing so for other developers as they need only to connect with Terra.
 
-Best coverage, "we connect and add to our range of integrations with fitness wearables on a daily bases"
+### How it works
 
-For developpers by developpers , our api and sdks makeit fast and easy to build great product and services
-With just a few lines of code, you can integrate your application with Terra in an afternoon
+The Terra API connects with a wide range of fitness and health wearables / sensors to unify the format that data provided by various them comes in.
+Users must authenticate their accounts via Terra which then allows developers to request their data on demand from the authorised source.
+They provide different data models such as sleep, nutrition, and menstruation that are common between wearables which ensures developers only have to deal with one format. There are also regular webhook updates, meaning developers recieve frequent notice of their users' activity without having to prompt Terra.
+The API offers a simple interface to a complex problem and provides security as all 'Data is anonymous, never stored, and securely transferred using HMAC payload integrity verification'
 
-Security by design 
-data is anonymous neve stored and securely transfered using hmac payload integrity verifictaion
 
+
+
+## Our Task
 
 Having been recently featured in the arrticle , Terra wanted to be able to show their services through a web app which was user friendly and didn't require to be a developper .
 
