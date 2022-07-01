@@ -10,9 +10,9 @@
 
 ### How it works
 
-The Terra API connects with a wide range of fitness and health wearables / sensors to unify the format that data provided by various them comes in.
+The Terra API connects with a wide range of fitness and health wearables / sensors to unify the format that data provided by various sources comes in.
 Users must authenticate their accounts via Terra which then allows developers to request their data on demand from the authorised source.
-They provide different data models such as sleep, nutrition, and menstruation that are common between wearables which ensures developers only have to deal with one format. There are also regular webhook updates, meaning developers recieve frequent notice of their users' activity without having to prompt Terra.
+They provide different data models such as sleep, nutrition, and menstruation that are common between wearables which ensures developers only have to deal with one format. There are also regular webhook updates, meaning developers receive frequent notice of their users' activity without having to prompt Terra.
 The API offers a simple interface to a complex problem and provides security as all 'Data is anonymous, never stored, and securely transferred using HMAC payload integrity verification'
 
 ## Our Task

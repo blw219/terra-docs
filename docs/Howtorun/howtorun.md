@@ -8,7 +8,7 @@ Both Methods will be explained below
 
 # Access Website
 
-Using the URL: (Insert URL here) , you can access the Terra Dashboard on your computer or mobile deevice.
+Using the URL: (Insert URL here), you can access the Terra Dashboard on your computer or mobile deevice.
 Just go to the URL, or copy it into your browser.
 Then login as a guest.
 A new window will open with the Terra widget.
@@ -34,18 +34,8 @@ Open 2 terminals, and in one go into the frontend folder, and in the other the b
 Then run the command 'npm start' in both terminals, which runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Once Hosted
 
