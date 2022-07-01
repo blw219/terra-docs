@@ -26,7 +26,8 @@ Our database: TODO BE TEAM
 
 
 *5- After having a fixed architecture for our Front end and Back end we Redesigned the user interface  with template given by Terra.
-TODO SC ALEX TEMPLATE
+![template](https://user-images.githubusercontent.com/58296040/176888020-f142da59-cfed-4e54-90e8-1a994e3e839e.png)
+
 Getting the template the company wanted us to follow we came up with our final design to meet their criterias.
 We changed colors , added logos and refactored our dashboard o display data similarly while keeping some of our ideas.
 
@@ -38,7 +39,8 @@ We changed colors , added logos and refactored our dashboard o display data simi
 *7- Health observations and suggestions 
 
 While our main goal was to display data from diifferent sources for the user , we also wanted to offer a deeper analysis . Going furtherr into the daa analysis and by doing rearch on health and fitness we were able to generate suggestions to improve their  health. These suggestions can be related to their nutrition ,sleep, sport performance but also stress and anxiety .
-TODO SC SUGGESTIONS
+![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/58296040/176888079-c7a73ed6-d11d-4d11-8145-53866a16ed16.png)
+
 *8-analytics pages for further analysis and vsualisation 
 In line with idea to dig deeper in our analysis , an analytics page has been added which gives more details o the user on its data.
 Our dashboard was mainly separated in 3 blocks :
