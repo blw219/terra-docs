@@ -10,6 +10,12 @@ During the design process, we met regularly with the client, especially during t
 These discussions helped mold the direction of the project and gave us a clearer understanding of the goals of the project combined with our unique suggestions, to produce the final product. 
 These discussions were recorded in the [meeting minutes](meeting/meeting.md) section of the project
 
+# Gantt Chart
+
+![image](https://user-images.githubusercontent.com/59968760/176928660-1537e56d-97c8-4596-af7f-17c8d2b5344e.png)
+![image](https://user-images.githubusercontent.com/59968760/176928739-5db2331f-12c0-4a58-890b-cb6977f857ac.png)
+
+
 # Design History 
 
 The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB. This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals to achieve by each weekly meeting which are as follows: 
