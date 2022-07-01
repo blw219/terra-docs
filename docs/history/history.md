@@ -1,5 +1,15 @@
 [__Back to home__](../index.md)
 
+# User Needs
+
+The Client (Terra) asked us to create a Dashboard Web App, which itegrates with their pre-existing Terra Widget. This Dashboard would allow users to connect their wearable accounts via the Terra Widget, and then view meaningful health data and analysis via graphs, charts, suggestions based on the users health data etc. The Dashboard should also be simplistic and easy to use, hiding the complexity of the widget and connections of different wearable data models.
+
+# Verification Protocols
+
+During the design process, we met regularly with the client, especially during the beginning of the project.
+These discussion helped mold the direction of the project and gave us clearer understanding of the goals of the project combined with our unique suggestions, to produce the final product. 
+These discussions were recorded in the [meeting minutes](meeting/meeting.md) section of the project
+
 # Design History 
 
 The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals to achieve by each weekly meeting which are as follows: 
