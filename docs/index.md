@@ -5,7 +5,7 @@
 - [Context](Context/context.md)
 - [How To run](Howtorun/howtorun.md)
 - [Design History](history/history.md)
-- [Specifications](specifiations/specifications.md)
+- [Specifications](specifications/specifications.md)
 - [Ethical & Sustainability](Ethics/ethics.md)
 - [Meeting Minutes](meeting/meeting.md)
 - [Code & Resources](resource/resource.md)
