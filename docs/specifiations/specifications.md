@@ -8,6 +8,7 @@ The task is left up to us to decide how we use data available to us and what ana
 
 # Robust algorithm
 Our statiistical algorithm runs each tme new data is uploaded , searchng for underlyijng relaionshps in activity, sleep, weight and other habits. Using Linear regresssion , scatter plots , impact scorres or sampliing peiods.
+
 # TODO ADD BACKEND
 
 # Frontend
@@ -19,12 +20,20 @@ Our statiistical algorithm runs each tme new data is uploaded , searchng for und
 
 # Health Data Analysis and Suggestions over multiple data sets
  
-- 
+- We want to use the users health data from the wearables they have connected to make meaningful analysis and suggestions
+- Depending on how many wearables the user connects, we intend to display more meaningful and intricate analysis the more data sets we are provided.
+- We then want to compare and discover patterns and correlations between the datasets to explain possible health problems and suggest improvements to aspects of their health
+- If the user provides only 1 wearable account, then we only have 1 dimension to analyze, and can therefore draw on public health guidelines to analyze and make suggestions to the user
+- We will then ask the user, if they have available, to connect more wearable accounts, so that we can display and analyze in more dimensions, correlations between their health data
 
 
 # Connect different wearables
 
-- Using widget session provided by terra
+- Using the widget session provided by Terra, a user can login to their wearable accounts on a new browser/pop up window
+- On loggin in with their wearable accounts, the app pings Terra's database for the users health data from the wearables autherized
+- We can then display the data in meaninfgul ways through grapsh, suggestions, breakdowns ect on the main Dashboard Page and Analytics Page
+
+## Dashboard And Analytics Cards
 
 The final website is split into a couple pages that display user data in multiple ways with different plots and analysis. It shows nutrition, activity and sleep data. The home page has three plots with one for each of these sectors, which focuses on one key aspect of each. The first is a line chart that shows the user's calorie intake over the course of thirty days as well as displaying the averge intake for the thirty days. The second focused on the calories burned over the last thirty days, similarly using a line chart and showing an average. Hours slept per night was the final plot, which also used a line chart and presented an average. Above all three plots are suggestions that depend on the data shown. For example, if the average calorie intake was considerably lower than the average calories burned the suggestion is along the lines of being awake for more hours can increase one's appetite. These suggestions also include praise if the user is deemed to have healthy data, such as a high amount of calories burned would result in a suggestion congratulating the user on having an active lifestyle.
 

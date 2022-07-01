@@ -1,3 +1,5 @@
+[__Back to home__](../index.md)
+
 # Access WebSite, or Host Locally
 
 The Terra Health Dashboard App can either be used via the hosted URL (Insert URL here) : 
