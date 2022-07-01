@@ -22,7 +22,6 @@
 
 ## Change Main Page Graph Time Scales
 
-![image](https://user-images.githubusercontent.com/59968760/176901739-045e7884-bf7d-4262-9858-97e625033652.png)
 ![image](https://user-images.githubusercontent.com/59968760/176901714-538c160a-4e87-410b-a9e5-651a90c27b2b.png)
 ![image](https://user-images.githubusercontent.com/59968760/176901912-a4d30cfb-0a02-412d-acdb-a0a371936f2b.png)
 ![image](https://user-images.githubusercontent.com/59968760/176903662-533c03e3-3c50-44e3-a110-47a1647e5e89.png)
