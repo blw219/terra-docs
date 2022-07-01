@@ -25,3 +25,17 @@ The last section is activity, which has a horizontal stacked bar chart and a ver
 
 The website also comes with a sidebar that can be opened and has links for the home page, the analytics page, the terra widget where users sign into their wearable accounts as well as a login page to sign into their account with our website.
 
+# Future Work
+To take our work further , the team has planned a couple of ideas :
+Incentives
+
+Working with other companies to provide real-world rewards to incentivise users to exercise or eat healthily
+
+Digital planner
+
+A digital planner that suggests useful meal plans, sleep cycles or gym routines by highlighting key pieces of data
+
+In-app networking
+
+Develop networking features such as forums and in-app messaging for users
+
