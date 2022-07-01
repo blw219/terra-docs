@@ -8,7 +8,7 @@ Both Methods will be explained below
 
 # Access Website
 
-Using the URL: (Insert URL here), you can access the Terra Dashboard on your computer or mobile deevice.
+Using the URL: (Insert URL here) , you can access the Terra Dashboard on your computer or mobile device.
 Just go to the URL, or copy it into your browser.
 Then login as a guest.
 A new window will open with the Terra widget.

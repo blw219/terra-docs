@@ -2,7 +2,7 @@
 
 # User Needs
 
-The Client (Terra) asked us to create a Dashboard Web App, which itegrates with their pre-existing Terra Widget. This Dashboard would allow users to connect their wearable accounts via the Terra Widget, and then view meaningful health data and analysis via graphs, charts, suggestions based on the users health data etc. The Dashboard should also be simplistic and easy to use, hiding the complexity of the widget and connections of different wearable data models.
+The Client (Terra) asked us to create a Dashboard Web App, which integrates with their pre-existing Terra Widget. This Dashboard would allow users to connect their wearable accounts via the Terra Widget, and then view meaningful health data and analysis via graphs, charts, suggestions based on the users health data etc. The Dashboard should also be simplistic and easy to use, hiding the complexity of the widget and connections of different wearable data models.
 
 # Verification Protocols
 
@@ -25,13 +25,13 @@ Receive large amounts of data without worrying about the payload size in a class
 <img width="850" alt="Screenshot 2022-07-01 at 13 48 32" src="https://user-images.githubusercontent.com/58296040/176892000-8f526ed4-6b4c-4844-9a5b-dbab834f4678.png">
 
 ## 2 - Authentication flow : getting the widget open and verifying connected wearables
-Now that we were able too receive data from Terra, we had to connect the users wearable accounts to the webapp. Using Terra's widget, a user can login and connect their different wearables and complete the authentification process to allow Terra to access their wearable data.
+Now that we were able too receive data from Terra, we had to connect the users wearable accounts to the webapp. Using Terra's widget, a user can login and connect their different wearables and complete the authentication process to allow Terra to access their wearable data.
 
 <img width="750" alt="terra-widget" src="https://user-images.githubusercontent.com/58296040/176870192-3aa8bd0e-fce7-452a-ad4b-145d78a7e9fa.png">
 
 ![image](https://user-images.githubusercontent.com/58296040/176873703-3999b7ec-36e8-4520-a8e8-24834ead6838.png)
 
-**Authentification Flow diagram**
+**Authentication Flow diagram**
 
  
 
@@ -46,7 +46,7 @@ Create a sensible database schema that allows us to query information for sepera
 ## 4 - After having a fixed architecture for our Front end and Back end we Redesigned the user interface  with template given by Terra.
 ![template](https://user-images.githubusercontent.com/58296040/176888020-f142da59-cfed-4e54-90e8-1a994e3e839e.png)
 
-Upon getting the template the company wanted us to follow, we came up with our final design to meet their criterias.
+Upon getting the template the company wanted us to follow, we came up with our final design to meet their criteria.
 We changed colors, added logos and refactored our dashboard to display data in a similar way, while keeping some of our ideas.
 
 
@@ -56,7 +56,7 @@ We changed colors, added logos and refactored our dashboard to display data in a
 
 ## 5 - Health observations and suggestions 
 
-While our main goal was to display data from diifferent sources for the user, we also wanted to offer a deeper analysis. Going further into the data analysis and doing rearch on health and fitness guidlines and trends, we were able to generate suggestions to improve their health. These suggestions can be related to their nutrition , sleep, sport performance but also stress and anxiety and overall wellbeing.
+While our main goal was to display data from different sources for the user, we also wanted to offer a deeper analysis. Going further into the data analysis and doing research on health and fitness guidelines and trends, we were able to generate suggestions to improve their health. These suggestions can be related to their nutrition , sleep, sport performance but also stress and anxiety and overall wellbeing.
 ![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/58296040/176888079-c7a73ed6-d11d-4d11-8145-53866a16ed16.png)
 
 ## 6 - Analytics pages for further analysis and visualisation 

@@ -15,7 +15,7 @@ Overview of KEY decisions taken:
 
 ## **Agenda**:
 
-**What they do**: Terra links data originating from wearables from multiple different companies (including Garmin, Fitbit, Peloton etc.) and makes them accessible to developers on a single API. This sees them act as a middleman between wearables and developers by creating an easy link between the two that can be used to analysis on multiple health and wellness parameters. 
+**What they do**: Terra links data originating from wearables from multiple different companies (including Garmin, FitBit, Peloton etc.) and makes them accessible to developers on a single API. This sees them act as a middleman between wearables and developers by creating an easy link between the two that can be used to analysis on multiple health and wellness parameters. 
 
  
 
@@ -203,7 +203,7 @@ How do we want to analyse single datasets (lowkey feels like a Spotify wrapped t
 * ^Above tasks will need to work in parallel to updating the backend 
 * Design frontend with framework templates 
 * Backend receiving/extracting specific data needed for plots 
-* Will need to display these plots on webapps 
+* Will need to display these plots on webapp 
 * How we choose data to plot (from the data we are given) 
 * Find and store generic/average trends/data in the database (need to be able to extract this as well when we choose which data to plot) 
 * Come up with high level design for webpage and displaying it (how it actually looks) 
@@ -238,7 +238,7 @@ How do we want to analyse single datasets (lowkey feels like a Spotify wrapped t
 
 **Command bar**:
 * Dashboard done 
-* Authentification/ Terrra widget done 
+* Authentication/ Terra widget done 
 * Login done 
 * Settings done 
 
@@ -254,7 +254,7 @@ How do we want to analyse single datasets (lowkey feels like a Spotify wrapped t
  
 ## Things to do: 
 
-**Habitdash**: 
+**Habit Dash**: 
 * take a look at competition, maybe take inspiration  
 
 **Frontend**: 
@@ -285,7 +285,7 @@ Sleep pattern  https://ouraring.com/blog/sleep-score/
 # 31th May 2022 - Meeting with Terra
 
 **To do**:
-* Use Tailwind for premade spinners when loading data 
+* Use Tailwind for pre-made spinners when loading data 
 
 **Deliverables**: 
 

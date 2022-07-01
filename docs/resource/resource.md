@@ -9,9 +9,9 @@
 ## Unique User Session ID
 ![image](https://user-images.githubusercontent.com/59968760/176776662-846d01df-5243-4c5e-8c77-7c4dcc99e32d.png)
 
-- Each time a user starts a session by going to the website in their brower, a unique session ID is created and passed within the states of the React DOM
-- This ID is created using a sha256 Hash, using the Current time and a random pertubated string as a key, meaning 2 users would have to access the website at the exact same second ( very unlikely ) and be given the exact same random string, to have the same ID. This is quite impossible
-- The use of a Hashing ID is to anonamize their userID and the connected wearables on the database, IN CASE of a breach or leak, instead of having a simple 0-x ID created based on the number of registered users, and to provide users with privacy guarantees
+- Each time a user starts a session by going to the website in their browser, a unique session ID is created and passed within the states of the React DOM
+- This ID is created using a sha256 Hash, using the Current time and a random perturbed string as a key, meaning 2 users would have to access the website at the exact same second ( very unlikely ) and be given the exact same random string, to have the same ID. This is quite impossible
+- The use of a Hashing ID is to anonymise their userID and the connected wearables on the database, IN CASE of a breach or leak, instead of having a simple 0-x ID created based on the number of registered users, and to provide users with privacy guarantees
 
 ## User Suggestions
 
@@ -20,8 +20,8 @@
 
 - Our Suggestions engine automatically finds correlations and relations between different data sets from different wearables.
 - The available data sets are stores in DashboardMoz class state, and passed to the General Suggestions file
-- Here, we use a large match case statement, to outout different suggestions based on the type of suggestion we want to provide
-- Then based on the available datasets, we can detect averge/outlier trends in the user's health data, based on scientific knoweldge of the human body, to generate meaningful suggestions back to the main Dahsboard Class, where they are outputted on the page
+- Here, we use a large match case statement, to output different suggestions based on the type of suggestion we want to provide
+- Then based on the available datasets, we can detect average/outlier trends in the user's health data, based on scientific knowledge of the human body, to generate meaningful suggestions back to the main Dashboard Class, where they are outputted on the page
 
 ## Change Main Page Graph Time Scales
 
@@ -38,7 +38,7 @@
 
 ![image](https://user-images.githubusercontent.com/59968760/176895581-05b472b5-159b-42b5-a04a-cb9419842f99.png)
 
-- On Guest login, or upon clicking the terra widget icon on the sidebar, users will be taken to a new browser page with the Terra Wdiget
+- On Guest login, or upon clicking the terra widget icon on the sidebar, users will be taken to a new browser page with the Terra Widget
 - Here they can login and connect any of their wearable accounts to their current session
 
 ![image](https://user-images.githubusercontent.com/59968760/176895812-aafd013b-15ac-46ed-91a3-10d045885b8d.png)
@@ -56,7 +56,7 @@
 
 ![image](../assets/images/serverRoutes.png)
 
-- Express has an in-built router package that allowed us to reduce the code in the main app.js file and seperate it into different files depending on the purpose of each particular route.
+- Express has an in-built router package that allowed us to reduce the code in the main app.js file and separate it into different files depending on the purpose of each particular route.
 - These routes deal with different frontend concerns such as anything to do with the user.
 
 ## Setting Up MongoDB

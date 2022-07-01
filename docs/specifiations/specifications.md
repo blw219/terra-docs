@@ -7,7 +7,7 @@ The task is left up to us to decide how we use data available to us and what ana
  The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website. This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on factors to consider:
 
 ## Robust algorithm
-Our statistical algorithm runs each time new data is uploaded, searchng for underlying relaionshps in activity, sleep, weight, and other habits. Using Linear regresssion, scatter plots, impact scores or sampling periods.
+Our statistical algorithm runs each time new data is uploaded, searching for underlying relationships in activity, sleep, weight, and other habits. Using Linear regression, scatter plots, impact scores or sampling periods.
 
 ## Backend
 
@@ -29,7 +29,7 @@ Our statistical algorithm runs each time new data is uploaded, searchng for unde
 
 ### Easy to use and understand Webapp
 
-- The WebApp was designed with ease of use and simplicity in mind. One of the main puproses of the App is to hide the complexity behind the Terra API and the user's different data models, and allow the user to connect and understand our health data analysis with no prior programming knowledge.
+- The WebApp was designed with ease of use and simplicity in mind. One of the main purposes of the App is to hide the complexity behind the Terra API and the user's different data models, and allow the user to connect and understand our health data analysis with no prior programming knowledge.
 - As such, all the user has to do is sign in with their own wearable account details, and everything is displayed in on the dashboard main page and analytics page, with clear analysis and breakdowns
 
 ### Health Data Analysis and Suggestions over Multiple Data Sets
@@ -43,13 +43,13 @@ Our statistical algorithm runs each time new data is uploaded, searchng for unde
 ### Connect different wearables
 
 - Using the widget session provided by Terra, a user can login to their wearable accounts on a new browser/pop up window
-- On loggin in with their wearable accounts, the app pings Terra's database for the users health data from the wearables autherized
-- We can then display the data in meaninfgul ways through grapsh, suggestions, breakdowns ect on the main Dashboard Page and Analytics Page
+- On login in with their wearable accounts, the app pings Terra's database for the users health data from the wearables authorised
+- We can then display the data in meaningful ways through graphs, suggestions, breakdowns ect on the main Dashboard Page and Analytics Page
 - Wearable account data is deleted on app close to preserve user data privacy 
 
 ### Dashboard And Analytics Cards
 
-- The final website is split into a couple pages that display user data in multiple ways with different plots and analysis. It shows nutrition, activity and sleep data. The home page has three plots with one for each of these sectors, which focuses on one key aspect of each. The first is a line chart that shows the user's calorie intake over the course of thirty days as well as displaying the averge intake for the thirty days. The second focused on the calories burned over the last thirty days, similarly using a line chart and showing an average. Hours slept per night was the final plot, which also used a line chart and presented an average. Above all three plots are suggestions that depend on the data shown. For example, if the average calorie intake was considerably lower than the average calories burned the suggestion is along the lines of being awake for more hours can increase one's appetite. These suggestions also include praise if the user is deemed to have healthy data, such as a high amount of calories burned would result in a suggestion congratulating the user on having an active lifestyle.
+- The final website is split into a couple pages that display user data in multiple ways with different plots and analysis. It shows nutrition, activity and sleep data. The home page has three plots with one for each of these sectors, which focuses on one key aspect of each. The first is a line chart that shows the user's calorie intake over the course of thirty days as well as displaying the average intake for the thirty days. The second focused on the calories burned over the last thirty days, similarly using a line chart and showing an average. Hours slept per night was the final plot, which also used a line chart and presented an average. Above all three plots are suggestions that depend on the data shown. For example, if the average calorie intake was considerably lower than the average calories burned the suggestion is along the lines of being awake for more hours can increase one's appetite. These suggestions also include praise if the user is deemed to have healthy data, such as a high amount of calories burned would result in a suggestion congratulating the user on having an active lifestyle.
 
 - On the analytics page there are seven plots with three of them for sleep data, two for nutrition and two for activity. The sleep plots consisted of a bar chart and two line charts. The bar chart displays a full analysis on a user's sleep with datasets for total sleep, light sleep, deep sleep and REM sleep over a month. This is shown as four sets of four bars, which are averages for each variable for each week over a month with monthly averages for each displayed above. This plot is built with the ability to remove datasets from the plot by clicking on the monthly average if a user wants to focus on a couple or one particular aspect of their sleep. The next plot shows maximum, average and minimum heart rate while sleeping for each night over a week. This plot also has the ability to remove maximum and minimum heart rates by clicking on labels above the plot. The final line chart shows the user's sleep efficiency over a month. Sleep efficiency is percentage given by looking at the amount of time spent sleeping over the total time in bed by using total sleep times and awake times for each night (The recommendation here is to have 80% or higher).
 
