@@ -13,8 +13,23 @@
 ## User Suggestions
 
 ![image](https://user-images.githubusercontent.com/59968760/176885032-8be90755-447d-49a9-9dc9-424e47b051b6.png)
-![image](https://user-images.githubusercontent.com/59968760/176885152-a0693665-4f85-421c-90c8-4d4b2dfecf91.png)
+![image](https://user-images.githubusercontent.com/59968760/176894689-893a8129-444c-4c4a-b94c-1ca8477af9fc.png)
 
+- Our Suggestions engine automatically finds correlations and relations between different data sets from different wearables.
+- The available data sets are stores in DashboardMoz class state, and passed to the General Suggestions file
+- Here, we use a large match case statement, to outout different suggestions based on the type of suggestion we want to provide
+- Then based on the available datasets, we can detect averge/outlier trends in the user's health data, based on scientific knoweldge of the human body, to generate meaningful suggestions back to the main Dahsboard Class, where they are outputted on the page
+
+## Connect wearable accounts to unique user session
+
+![image](https://user-images.githubusercontent.com/59968760/176895581-05b472b5-159b-42b5-a04a-cb9419842f99.png)
+
+- On Guest login, or upon clicking the terra widget icon on the sidebar, users will be taken to a new browser page with the Terra Wdiget
+- Here they can login and connect any of their wearable accounts to their current session
+
+![image](https://user-images.githubusercontent.com/59968760/176895812-aafd013b-15ac-46ed-91a3-10d045885b8d.png)
+
+- On successful closing of the window, a delete signal is sent to the backend, to delete the users unique session id
 
 ## Terra Integration
 - [https://docs.tryterra.co/integrating-with-terra](https://docs.tryterra.co/integrating-with-terra)
