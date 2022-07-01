@@ -108,19 +108,20 @@ Matching designs
 
 
 1-Basic Design (front end :log in back end : stores the log in details)
+
 SC zion
 2- authentication flow : getting the widget open and verifying connected wearables
-terra's diagram https://docs.tryterra.co/docs/quick-setup 
-https://docs.tryterra.co/reference/rest-authentication
 
-<img src="../../images/database1.png" alt="Overview"/>
+<img width="1440" alt="terra-widget" src="https://user-images.githubusercontent.com/58296040/176870192-3aa8bd0e-fce7-452a-ad4b-145d78a7e9fa.png">
 
 
 3-basic visual data representation 
 sc from gc
-4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generate an id through a hash and store it with wearable id show code) link the ressource zionteams
+
+4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) link the ressource zionteams
 database 1: storring the data to be repeated to display
 2:connecting our unique iids to the all of the users wearable ids
+
 5- Redesign with template habitdash
 show new design and template given by alex
 without suggestions
