@@ -1,7 +1,10 @@
 [__Back to home__](../index.md)
 
-# Code and Resources
+# The Project Repository
 
+[https://github.com/kc319/TerraDemo](https://github.com/kc319/TerraDemo)
+
+# Code and Resources
 
 ## Unique User Session ID
 ![image](https://user-images.githubusercontent.com/59968760/176776662-846d01df-5243-4c5e-8c77-7c4dcc99e32d.png)
@@ -99,7 +102,7 @@
 - [https://armstrongbodysystems.com/heart-rate-chart/](https://armstrongbodysystems.com/heart-rate-chart/)
 
 
-## Reaact Component LifeCycle:
+## React Component LifeCycle:
 - [https://www.educba.com/react-component-lifecycle/](https://www.educba.com/react-component-lifecycle/)
 - [https://reactjs.org/docs/react-component.html#render](https://reactjs.org/docs/react-component.html#render)
 - [https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm](https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm)
@@ -135,3 +138,7 @@
 - [https://www.w3schools.com/react/react_router.asp](https://www.w3schools.com/react/react_router.asp)
 - [https://reactrouterdotcom.fly.dev/docs/en/v6/routers/browser-router](https://reactrouterdotcom.fly.dev/docs/en/v6/routers/browser-router)
 - [https://medium.com/how-to-react/how-to-use-react-router-in-your-react-js-project-7e1d469a9716#:~:text=How%20to%20use%20React%20Router%20in%20your%20React,useLocation.%20...%205%20useHistory.%20...%206%20Redirect.%20](https://medium.com/how-to-react/how-to-use-react-router-in-your-react-js-project-7e1d469a9716#:~:text=How%20to%20use%20React%20Router%20in%20your%20React,useLocation.%20...%205%20useHistory.%20...%206%20Redirect.%20)
+
+## Express API:
+-[https://expressjs.com/en/api.html](https://expressjs.com/en/api.html)
+-[https://www.robinwieruch.de/node-express-server-rest-api/](https://www.robinwieruch.de/node-express-server-rest-api/)

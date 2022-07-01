@@ -6,6 +6,8 @@
 - [How To run](Howtorun/howtorun.md)
 - [Design History](history/history.md)
 - [Specifications](specifiations/specifications.md)
-- [Ethical consequences](Ethics/ethics.md)
+- [Ethical & Sustainability](Ethics/ethics.md)
 - [Meeting minutes](meeting/meeting.md)
 - [Code & Resources](resource/resource.md)
+
+- [Dashboard Repository](https://github.com/kc319/TerraDemo)
