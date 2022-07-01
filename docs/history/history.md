@@ -71,3 +71,4 @@ The analytics page is a place for the user to have access to more information an
 
 <img width="458" alt="Screenshot 2022-07-01 at 12 09 13" src="https://user-images.githubusercontent.com/58296040/176874941-6fbe13ff-81ef-4d00-8c8f-6bebd40fb307.png">
 
+![analyticsImage](../assets/images/analyticsPage555.png)
