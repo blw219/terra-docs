@@ -2,7 +2,7 @@
 
 # Design History 
 
-The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals tto achieve by each weekly meeting which are as follows: 
+The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals to achieve by each weekly meeting which are as follows: 
  
 
 * 1-Basic Design (front end :log in back end : stores the log in details)
@@ -39,16 +39,18 @@ We changed colors , added logos and refactored our dashboard o display data simi
 
 * 7- Health observations and suggestions 
 
-While our main goal was to display data from diifferent sources for the user , we also wanted to offer a deeper analysis . Going furtherr into the daa analysis and by doing rearch on health and fitness we were able to generate suggestions to improve their  health. These suggestions can be related to their nutrition ,sleep, sport performance but also stress and anxiety .
+While our main goal was to display data from diifferent sources for the user , we also wanted to offer a deeper analysis . Going further into the data analysis and by doing rearch on health and fitness we were able to generate suggestions to improve their  health. These suggestions can be related to their nutrition ,sleep, sport performance but also stress and anxiety .
 ![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/58296040/176888079-c7a73ed6-d11d-4d11-8145-53866a16ed16.png)
 
 * 8-analytics pages for further analysis and vsualisation 
 In line with idea to dig deeper in our analysis , an analytics page has been added which gives more details o the user on its data.
 Our dashboard was mainly separated in 3 blocks :
-**nutrition (calories consumed)
-**health (sleep , heart rate)
-**performance (calories burned, daily activities)
-The analytics page is a place for the user to have more information . For example the user can have a breakdown of its macronutriments per day but also his exact sleeping pattern ...
+
+**nutrition (calories consumed)**
+**health (sleep , heart rate)**
+**performance (calories burned, daily activities)**
+
+The analytics page is a place for the user to have more information . For example the user can have a breakdown of its macro-nutriments per day but also his exact sleeping pattern ...
 
 <img width="458" alt="Screenshot 2022-07-01 at 12 09 13" src="https://user-images.githubusercontent.com/58296040/176874941-6fbe13ff-81ef-4d00-8c8f-6bebd40fb307.png">
 
