@@ -45,9 +45,9 @@ While our main goal was to display data from diifferent sources for the user , w
 * 8-analytics pages for further analysis and vsualisation 
 In line with idea to dig deeper in our analysis , an analytics page has been added which gives more details o the user on its data.
 Our dashboard was mainly separated in 3 blocks :
-- nutrition (calories consumed)
-- health (sleep , heart rate)
-- performance (calories burned, daily activities)
+**nutrition (calories consumed)
+**health (sleep , heart rate)
+**performance (calories burned, daily activities)
 The analytics page is a place for the user to have more information . For example the user can have a breakdown of its macronutriments per day but also his exact sleeping pattern ...
 
 <img width="458" alt="Screenshot 2022-07-01 at 12 09 13" src="https://user-images.githubusercontent.com/58296040/176874941-6fbe13ff-81ef-4d00-8c8f-6bebd40fb307.png">
