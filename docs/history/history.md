@@ -8,10 +8,11 @@ The idea is to create a website to view this on with the potential to move this 
 *1-Basic Design (front end :log in back end : stores the log in details)
 Our first step was to understand how the terra's API works and the use of webhooks. The first draft was just a basic login page and the back end was set up to store the log in detail requesting a session ID and Opening the widget whkch will allow us to pull the user data later.
 
-TODO SC zion
+<img width="850" alt="Screenshot 2022-07-01 at 13 48 32" src="https://user-images.githubusercontent.com/58296040/176892000-8f526ed4-6b4c-4844-9a5b-dbab834f4678.png">
+
 *2- authentication flow : getting the widget open and verifying connected wearables
 
-<img width="1440" alt="terra-widget" src="https://user-images.githubusercontent.com/58296040/176870192-3aa8bd0e-fce7-452a-ad4b-145d78a7e9fa.png">
+<img width="750" alt="terra-widget" src="https://user-images.githubusercontent.com/58296040/176870192-3aa8bd0e-fce7-452a-ad4b-145d78a7e9fa.png">
 
 ![image](https://user-images.githubusercontent.com/58296040/176873703-3999b7ec-36e8-4520-a8e8-24834ead6838.png)
 
@@ -20,8 +21,8 @@ TODO SC zion
 
 *4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) 
 Our database: TODO BE TEAM 
-<img width="1246" alt="database2" src="https://user-images.githubusercontent.com/58296040/176876800-d199ed7c-d7d9-4246-91d2-205d1077d3e6.png">
-<img width="1255" alt="database1" src="https://user-images.githubusercontent.com/58296040/176876828-12e0c3f9-20ec-406d-b167-8b3fca539318.png">
+<img width="700" alt="database2" src="https://user-images.githubusercontent.com/58296040/176876800-d199ed7c-d7d9-4246-91d2-205d1077d3e6.png">
+<img width="700" alt="database1" src="https://user-images.githubusercontent.com/58296040/176876828-12e0c3f9-20ec-406d-b167-8b3fca539318.png">
 
 
 
