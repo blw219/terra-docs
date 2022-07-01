@@ -5,109 +5,8 @@
 The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals tto achieve by each weekly meeting which are as follows: 
  
 
-Week 2: 
-    • Obtain an understanding of Terra’s API and use of webhooks 
-    • Brainstorm dashboard ideas and how we want to display them 
-    • Setup GitHub repository 
-    • Start to develop the basics of the frontend and backend for the website 
-    • Setup authentication 
-    • Start work on AWS database 
-
-Week 3
-	• Set up the Front-end
-	• Set up the Backend
-	• Configure a basic login
-	• Request session ID
-	• Opening widget
-	• Pull some user data
-
-week 4
-	• Display some basic analysis
-	• Database
-	• Plan for front end layout
- 
-Trello: Plan all tasks and setup who does what
- 
-Frontend:
-    • Website design
-    • Data Visualised
-    • Decide tools
- 
-Backend:
-    • Authorisation
-    • Store user data
-
-
-week 5
-Note down mistakes in debugging for other users in this doc/OneNote
- 
-Frontend:
- 
-    • Fix display issues
-    • Visualize user data on graphs
-    • Notify which wearables to connect to see data
-    • Nutrition, Performance, health graphs: calories, calories burned, sleep
- 
-Backend:
- 
-    • Pull relevant data
-    • Link user ID to wearable IDs in database and backend
- 
-Database:
- 
-Storing relevant user data in structured format
-
-
-week 6
-Habitdash: take a look at competition, maybe take inspiration
-
-Things to do:
-
-Frontend:
-
-	• More graphs: other metrics plotted
-	• Remove unnecessary icons ok
-	• Add time scale ok ?
-	• Correct reference links ok
-	• Format plots ok
-	• Colours (customise) ok
-	• Login Page ?
-	• Use tailwind element (loading symbol..)
-
-Backend:
-
-	• Finish automatic retrieval on connection
-	• Optimise the storing data
-
-Uni stuff:
-
-	• Leaflet
-	• Poster
-
-By 6th June surpass Habitdash 
-
-Health:
-Sleep pattern  https://ouraring.com/blog/sleep-score/
-
-Weight ? Compared to
-Heart rate with performance 
-
-week 6
-Use Tailwind for premade spinners when loading data
-
-
-week 7
-Deliverables:
-
-	• Add detailed sections for each category: Different data representation e.g. food groups, pie chart, nutrition, performance, health
-	• Suggestions for heart health, diversify workouts, tracking workout habits (heart rate is going down weekly with the same workout), heart rate during sleep correlating with workouts, workouts late at night maybe affecting sleep, comparing intake of calories against calories burned daily
-	• Data Analysis: observations, meal sleep, sleep vs alcohol, trends between different data
-	• Fix Issues
-Matching designs
-
-
-
 *1-Basic Design (front end :log in back end : stores the log in details)
+Our first step was to understand how the terra's API works and the use of webhooks. The first draft was just a basic login page and the back end was set up to store the log in detail requesting a session ID and Opening the widget whkch will allow us to pull the user data later.
 
 TODO SC zion
 *2- authentication flow : getting the widget open and verifying connected wearables
@@ -117,25 +16,36 @@ TODO SC zion
 ![image](https://user-images.githubusercontent.com/58296040/176873703-3999b7ec-36e8-4520-a8e8-24834ead6838.png)
 
 *3-basic visual data representation 
-sc from gc
 
-*4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) link the ressource zionteams
-database 1: storring the data to be repeated to display
+
+*4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) 
+Our database: TODO BE TEAM 
 <img width="1246" alt="database2" src="https://user-images.githubusercontent.com/58296040/176876800-d199ed7c-d7d9-4246-91d2-205d1077d3e6.png">
 <img width="1255" alt="database1" src="https://user-images.githubusercontent.com/58296040/176876828-12e0c3f9-20ec-406d-b167-8b3fca539318.png">
 
-*2:connecting our unique iids to the all of the users wearable ids
 
-*5- Redesign with template habitdash
-show new design and template given by alex
-without suggestions
+
+*5- After having a fixed architecture for our Front end and Back end we Redesigned the user interface  with template given by Terra.
+TODO SC ALEX TEMPLATE
+Getting the template the company wanted us to follow we came up with our final design to meet their criterias.
+We changed colors , added logos and refactored our dashboard o display data similarly while keeping some of our ideas.
+
 
 <img width="761" alt="Screenshot 2022-07-01 at 12 11 19" src="https://user-images.githubusercontent.com/58296040/176875051-c2d590e1-94a2-4793-abb9-e3b020a00a2c.png">
 
 
 
 *7- Health observations and suggestions 
-sc suggestions 
+
+While our main goal was to display data from diifferent sources for the user , we also wanted to offer a deeper analysis . Going furtherr into the daa analysis and by doing rearch on health and fitness we were able to generate suggestions to improve their  health. These suggestions can be related to their nutrition ,sleep, sport performance but also stress and anxiety .
+TODO SC SUGGESTIONS
 *8-analytics pages for further analysis and vsualisation 
+In line with idea to dig deeper in our analysis , an analytics page has been added which gives more details o the user on its data.
+Our dashboard was mainly separated in 3 blocks :
+-nutrition (calories consumed)
+-health (sleep , heart rate)
+-performance (calories burned, daily activities)
+The analytics page is a place for the user to have more information . For example the user can have a breakdown of its macronutriments per day but also his exact sleeping pattern ...
+
 <img width="458" alt="Screenshot 2022-07-01 at 12 09 13" src="https://user-images.githubusercontent.com/58296040/176874941-6fbe13ff-81ef-4d00-8c8f-6bebd40fb307.png">
 
