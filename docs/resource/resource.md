@@ -31,6 +31,14 @@
 
 - On successful closing of the window, a delete signal is sent to the backend, to delete the users unique session id
 
+## Selective data requests based on missing dates
+
+![image](../../images/missingDates.png)
+
+- Since the user could potentially request data from various time periods it would be inefficient to ask Terra for data we already have stored in our database.
+- This function finds the dates for which we do not have data and only requests these from Terra.
+
+
 ## Terra Integration
 - [https://docs.tryterra.co/integrating-with-terra](https://docs.tryterra.co/integrating-with-terra)
 
