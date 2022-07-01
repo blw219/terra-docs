@@ -16,5 +16,5 @@ It is important to consider the responsibility shouldered when advising someone 
 
 # Sustainability
 
-As this project is centred around building a website the only sustainability considerations concern the energy required to run servers for the website and database as well as the space to store servers. These factors have been considered and acknowledged and we hope that energy is provided from renewable and sustainable sources.
+As this project is centred around building a website, the only sustainability considerations concern the energy required to run servers for the website and database as well as the space to store servers. These factors have been considered and acknowledged and we hope that energy is provided from renewable and sustainable sources.
 

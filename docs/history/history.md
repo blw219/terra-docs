@@ -37,7 +37,7 @@ Now that we were able too receive data from Terra, we had to connect the users w
 
 
 ## 3 - Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) 
-Our database: TODO BE TEAM 
+Create a sensible database schema that allows us to query information for seperate wearables by date and type of data. Also seperately storing all a user's connected wearables.
 <img width="700" alt="database2" src="https://user-images.githubusercontent.com/58296040/176876800-d199ed7c-d7d9-4246-91d2-205d1077d3e6.png">
 <img width="700" alt="database1" src="https://user-images.githubusercontent.com/58296040/176876828-12e0c3f9-20ec-406d-b167-8b3fca539318.png">
 

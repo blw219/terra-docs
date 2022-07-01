@@ -7,7 +7,7 @@ The task is left up to us to decide how we use data available to us and what ana
  The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website. This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on factors to consider:
 
 ## Robust algorithm
-Our statiistical algorithm runs each time new data is uploaded, searchng for underlying relaionshps in activity, sleep, weight, and other habits. Using Linear regresssion, scatter plots, impact scores or sampling periods.
+Our statistical algorithm runs each time new data is uploaded, searchng for underlying relaionshps in activity, sleep, weight, and other habits. Using Linear regresssion, scatter plots, impact scores or sampling periods.
 
 ## Backend
 
@@ -21,9 +21,9 @@ Our statiistical algorithm runs each time new data is uploaded, searchng for und
 - Using Terra documentation to create valid requests that can pull data for a user's wearable and then storing it in our database.
 - Process all of the different Terra webhook events to ensure comprehensive reactions in the server.
 
+### Automatic connection to the database and handling data requests
 
-
-
+- Whenever the front end requests data return any current data for the specified period and try to request missing data from Terra automatically.
 
 ## Frontend
 
