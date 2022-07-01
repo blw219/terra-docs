@@ -12,6 +12,10 @@
 
 ## User Suggestions
 
+![image](https://user-images.githubusercontent.com/59968760/176885032-8be90755-447d-49a9-9dc9-424e47b051b6.png)
+![image](https://user-images.githubusercontent.com/59968760/176885152-a0693665-4f85-421c-90c8-4d4b2dfecf91.png)
+
+
 ## Terra Integration
 - [https://docs.tryterra.co/integrating-with-terra](https://docs.tryterra.co/integrating-with-terra)
 
