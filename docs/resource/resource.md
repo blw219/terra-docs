@@ -20,6 +20,18 @@
 - Here, we use a large match case statement, to outout different suggestions based on the type of suggestion we want to provide
 - Then based on the available datasets, we can detect averge/outlier trends in the user's health data, based on scientific knoweldge of the human body, to generate meaningful suggestions back to the main Dahsboard Class, where they are outputted on the page
 
+## Change Main Page Graph Time Scales
+
+![image](https://user-images.githubusercontent.com/59968760/176901739-045e7884-bf7d-4262-9858-97e625033652.png)
+![image](https://user-images.githubusercontent.com/59968760/176901714-538c160a-4e87-410b-a9e5-651a90c27b2b.png)
+![image](https://user-images.githubusercontent.com/59968760/176901912-a4d30cfb-0a02-412d-acdb-a0a371936f2b.png)
+![image](https://user-images.githubusercontent.com/59968760/176903662-533c03e3-3c50-44e3-a110-47a1647e5e89.png)
+
+- By default, all Dashboard Cards display data with a timescale of 30 days
+- However, using the 3 dot drop down menu on each dashboard card, we can change the timescale to 1 week, 1 month, or 3 months
+- Users can use this to get a better understanding of their recent health data, or a larger scale understanding over a bigger range
+
+
 ## Connect wearable accounts to unique user session
 
 ![image](https://user-images.githubusercontent.com/59968760/176895581-05b472b5-159b-42b5-a04a-cb9419842f99.png)
