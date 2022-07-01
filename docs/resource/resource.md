@@ -31,13 +31,26 @@
 
 - On successful closing of the window, a delete signal is sent to the backend, to delete the users unique session id
 
-## Selective data requests based on missing dates
+## Selective Data Requests Based On Missing Dates
 
-![image](../../images/missingDates.png)
+![image](../assets/images/missingDates.png)
 
 - Since the user could potentially request data from various time periods it would be inefficient to ask Terra for data we already have stored in our database.
 - This function finds the dates for which we do not have data and only requests these from Terra.
 
+## Using Express's Router To Divide Code
+
+![image](../assets/images/serverRoutes.png)
+
+- Express has an in-built router package that allowed us to reduce the code in the main app.js file and seperate it into different files depending on the purpose of each particular route.
+- These routes deal with different frontend concerns such as anything to do with the user.
+
+## Setting Up MongoDB
+
+![image](../assets/images/mongo.png)
+
+- A global mongo object is setup before the server is launched that can be used for any connection to the database.
+- It requires a key not provided in the source repository.
 
 ## Terra Integration
 - [https://docs.tryterra.co/integrating-with-terra](https://docs.tryterra.co/integrating-with-terra)
