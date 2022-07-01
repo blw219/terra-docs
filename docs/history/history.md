@@ -30,14 +30,11 @@ Now that we were able too receive data from Terra, we had to connect the users w
 <img width="750" alt="terra-widget" src="https://user-images.githubusercontent.com/58296040/176870192-3aa8bd0e-fce7-452a-ad4b-145d78a7e9fa.png">
 
 ![image](https://user-images.githubusercontent.com/58296040/176873703-3999b7ec-36e8-4520-a8e8-24834ead6838.png)
-
 **Authentication Flow diagram**
-
- 
 
 
 ## 3 - Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) 
-Create a sensible database schema that allows us to query information for seperate wearables by date and type of data. Also seperately storing all a user's connected wearables.
+Created a sensible database schema that allows us to query information for separate wearables by date and type of data. Also separately storing all a user's connected wearables.
 <img width="700" alt="database2" src="https://user-images.githubusercontent.com/58296040/176876800-d199ed7c-d7d9-4246-91d2-205d1077d3e6.png">
 <img width="700" alt="database1" src="https://user-images.githubusercontent.com/58296040/176876828-12e0c3f9-20ec-406d-b167-8b3fca539318.png">
 
@@ -47,7 +44,8 @@ Create a sensible database schema that allows us to query information for sepera
 ![template](https://user-images.githubusercontent.com/58296040/176888020-f142da59-cfed-4e54-90e8-1a994e3e839e.png)
 
 Upon getting the template the company wanted us to follow, we came up with our final design to meet their criteria.
-We changed colors, added logos and refactored our dashboard to display data in a similar way, while keeping some of our ideas.
+We changed colours, added logos and refactored our dashboard to display data in a similar way, while keeping some of our ideas.
+Aiming to reduce an overload of information on the page and display it in a sleek way.
 
 
 <img width="761" alt="Screenshot 2022-07-01 at 12 11 19" src="https://user-images.githubusercontent.com/58296040/176875051-c2d590e1-94a2-4793-abb9-e3b020a00a2c.png">
