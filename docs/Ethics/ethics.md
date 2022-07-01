@@ -8,7 +8,7 @@ Terra provides two main methods of receiving data from your users. HTTP requests
 HTTP requests allow you to manually request for recent or historical data for any of your users at any time. You should note however that SDK integrations do not support retreival of data through HTTP requests and the requests should instead be performed on the device. See HTTP Requests for more.
 Webhooks allow you immediate access to new user data. We send a POST request to your configured webhook URL whenever we are notified or detect new data is available for any of your users. All you need to do is listen for these pushes and process them on your backend. See Webhooks for more.
 
-When handling personal data care must be taken to ensure that it is kept securely and not used for purposes not agreed to by the user. We must ensure that we have authorisation to access someones data and information. User's data should also never be given to third party sources unless we have the user's consent.
+When handling personal data care must be taken to ensure that it is kept securely and not used for purposes not agreed to by the user. We must ensure that we have authorisation to access someones data and information which is ensured by Terra's connection widget. Users' data should also never be given to third party sources unless we have the user's consent. Storing data can also be unethical without the user's consent which we do, however we also make sure to regularly delete data we have.
 
 
 ## Security
