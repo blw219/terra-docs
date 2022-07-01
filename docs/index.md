@@ -7,7 +7,6 @@
 - [Design History](history/history.md)
 - [Specifications](specifiations/specifications.md)
 - [Ethical & Sustainability](Ethics/ethics.md)
-- [Meeting minutes](meeting/meeting.md)
+- [Meeting Minutes](meeting/meeting.md)
 - [Code & Resources](resource/resource.md)
-
 - [Dashboard Repository](https://github.com/kc319/TerraDemo)

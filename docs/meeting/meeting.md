@@ -197,7 +197,7 @@ Simplest analysis here would be to check different food group intake amounts aga
 * ^Above tasks will need to work in parallel to updating the backend 
 * Design frontend with framework templates 
 * Backend receiving/extracting specific data needed for plots 
-* Will need to display these plots on webapps 
+* Will need to display these plots on webapp 
 * How we choose data to plot (from the data we are given) 
 * Find and store generic/average trends/data in the database (need to be able to extract this as well when we choose which data to plot) 
 * Come up with high level design for webpage and displaying it (how it actually looks) 
@@ -232,7 +232,7 @@ Simplest analysis here would be to check different food group intake amounts aga
 
 **Command bar**:
 * Dashboard done 
-* Authentification/ Terrra widget done 
+* Authentication/ Terra widget done 
 * Login done 
 * Settings done 
 
@@ -248,8 +248,8 @@ Simplest analysis here would be to check different food group intake amounts aga
  
 ## Things to do: 
 
-**Habitdash**: 
-* take a look at competition, maybe take inspiration  
+**Habit Dash**: 
+* take a look at competition  
 
 **Frontend**: 
 * More graphs: other metrics plotted 
@@ -279,7 +279,7 @@ Sleep pattern  https://ouraring.com/blog/sleep-score/
 # 31th May 2022 - Meeting with Terra
 
 **To do**:
-* Use Tailwind for premade spinners when loading data 
+* Use Tailwind for pre-made spinners when loading data 
 
 **Deliverables**: 
 
