@@ -8,7 +8,7 @@ When handling personal data care must be taken to ensure that it is kept securel
 
 ## Security
 
-Data is anonymous never stored and securely transferred using HMAC payload integrity verification. It should be protected against any unauthorised individuls who try to gain access to user data. Another step taken to maintain anonymity is when the session is closed the session id, which is used to identify the user's wearable data in our database, is deleted so there is no way to link a user to their data after this as they will only be stored in the databasae as a session id number.
+Data is anonymous never stored and securely transferred using HMAC payload integrity verification. It should be protected against any unauthorised individuls who try to gain access to user data. Another step taken to maintain anonymity is when the session is closed the session ID, which is used to identify the user's wearable data in our database, is deleted so there is no way to link a user to their data after this as they will only be stored in the databasae as a session ID number.
 
 ## Suggestions
 

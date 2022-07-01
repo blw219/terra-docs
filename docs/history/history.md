@@ -7,20 +7,20 @@ The Client (Terra) asked us to create a Dashboard Web App, which itegrates with 
 # Verification Protocols
 
 During the design process, we met regularly with the client, especially during the beginning of the project.
-These discussion helped mold the direction of the project and gave us clearer understanding of the goals of the project combined with our unique suggestions, to produce the final product. 
+These discussions helped mold the direction of the project and gave us a clearer understanding of the goals of the project combined with our unique suggestions, to produce the final product. 
 These discussions were recorded in the [meeting minutes](meeting/meeting.md) section of the project
 
 # Design History 
 
-The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals to achieve by each weekly meeting which are as follows: 
+The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website for which we are using MONGODB. This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on goals to achieve by each weekly meeting which are as follows: 
  
 
 ## 1 - Basic Design (front end :log in back end : stores the log in details)
-Our first step was to understand how the Terra's API works and the use of webhooks. The first draft was just a basic login page and the back end was set up to store the log in detail requesting a session ID and Opening the widget which will allow us to pull the user data later.
+Our first step was to understand how the Terra's API works and the use of webhooks. The first draft was just a basic login page and the back end was set up to store the login details requesting a session ID and opening the widget which will allow us to pull the user data later.
 
 One of the key features of Terra is pushing data asynchronously to an endpoint. It allowed us
-receive data whenever it is available by the user's wearable without having to query it
-Receive large amounts of data without worrying about the payload size in a classic HTTP request
+to receive data whenever it is available by the user's wearable without having to query it.
+One can receive large amounts of data without worrying about the payload size in a classic HTTP request.
 
 <img width="850" alt="Screenshot 2022-07-01 at 13 48 32" src="https://user-images.githubusercontent.com/58296040/176892000-8f526ed4-6b4c-4844-9a5b-dbab834f4678.png">
 

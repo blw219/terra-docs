@@ -15,7 +15,7 @@ Overview of KEY decisions taken:
 
 ## **Agenda**:
 
-**What they do**: Terra links data originating from wearables from multiple different companies (including Garmin, Fitbit, Peloton etc.) and makes them accessible to developers on a single API. This sees them act as a middleman between wearables and developers by creating an easy link between the two that can be used to analysis on multiple health and wellness parameters. 
+**What they do**: Terra links data originating from wearables from multiple different companies (including Garmin, Fitbit, Peloton etc.) and makes them accessible to developers on a single API. This sees them act as a middleman between wearables and developers by creating an easy link between the two that can be used to analyse multiple health and wellness parameters. 
 
  
 
@@ -23,7 +23,7 @@ Overview of KEY decisions taken:
 
  
 
-**Factors to consider**: The task is left up to us to decide how we use data available to us and what analysis we want to do. It is necessary to consider that a user might not have multiple apps/datasets that encompass some of the things we might want to draw correlations between, e.g., user might only have data for their sleeping patterns, which would mean we cannot analyse how their sports performance is affected by this. As such we discussed a couple approaches to this. The first was potentially to use machine learning on other historical data of similar profiles so that we could provide a dataset for our missing parameter given we obtain a few details from the user (could be height, weight, gender, age etc.). Another idea was to limit our analysis to just using the given data from which we could provide some interesting insights (looking at someone’s sleeping patterns and recommending how they might improve their quality of sleep). We will also have to consider how the user is able to view data as the idea is to create a custom dashboard for users to select what they want to observe depending on what insights are available given their data. 
+**Factors to consider**: The task is left up to us to decide how we use data available to us and what analysis we want to do. It is necessary to consider that a user might not have multiple apps/datasets that encompass some of the things we might want to draw correlations between, e.g., user might only have data for their sleeping patterns, which would mean we cannot analyse how their sports performance is affected by this. As such we discussed a couple approaches to this. The first was potentially to use machine learning on other historical data of similar profiles so that we could provide a dataset for our missing parameter given we obtain a few details from the user (could be height, weight, gender, age etc.). Another idea was to limit our analysis to just using the given data from which we could provide some interesting insights (looking at someone's sleeping patterns and recommending how they might improve their quality of sleep). We will also have to consider how the user is able to view data as the idea is to create a custom dashboard for users to select what they want to observe depending on what insights are available given their data. 
 
  
 
@@ -98,17 +98,11 @@ Simplest analysis here would be to check different food group intake amounts aga
 * Sports Performance vs Time of day? 
 * Sports Performance vs Time of sleep? 
 
- 
-
-How do we want to analyse single datasets (lowkey feels like a Spotify wrapped type-beat): 
-
 **Sports Performance**: 
 * Trends for pace 
 * Longest distance 
 * Fastest pace 
 * Most active month/week 
-
- 
 
 **Sleep**: 
 * Trends for length of sleep 
@@ -151,14 +145,14 @@ How do we want to analyse single datasets (lowkey feels like a Spotify wrapped t
 
 * Heroku: Is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. 
 * Material UI: Offers a comprehensive suite of UI tools to help you ship new features faster. 
-* Ngrok: Is a globally distributed reverse proxy fronting your web services running in any cloud or private network, or your machine.  
+* Ngrok: Is a globally distributed reverse proxy fronting your web services running in any cloud or private network, or your machine.
 
  
 
 **Things to do (for the following week)**: 
 
-* Connecting to widget – Zion / Kai 
-* Authorise wearable account – Zion / Kai 
+* Connecting to widget - Zion / Kai 
+* Authorise wearable account - Zion / Kai 
 * Pull data - Ruwan 
 * Display - All 
 * Local database for data - Boon 
@@ -172,7 +166,7 @@ How do we want to analyse single datasets (lowkey feels like a Spotify wrapped t
 
 **Framework design**: 
 * Use template or work from scratch? 
-* Better to use what is quicker so start with template 
+* Better to use what is quicker so start with: template 
 
  
 
