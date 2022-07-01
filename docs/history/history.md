@@ -107,23 +107,26 @@ Matching designs
 
 
 
-1-Basic Design (front end :log in back end : stores the log in details)
+*1-Basic Design (front end :log in back end : stores the log in details)
 
-SC zion
-2- authentication flow : getting the widget open and verifying connected wearables
+TODO SC zion
+*2- authentication flow : getting the widget open and verifying connected wearables
 
 <img width="1440" alt="terra-widget" src="https://user-images.githubusercontent.com/58296040/176870192-3aa8bd0e-fce7-452a-ad4b-145d78a7e9fa.png">
 
 ![image](https://user-images.githubusercontent.com/58296040/176873703-3999b7ec-36e8-4520-a8e8-24834ead6838.png)
 
-3-basic visual data representation 
+*3-basic visual data representation 
 sc from gc
 
-4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) link the ressource zionteams
+*4- Implemented the database flow to store and retrieve data & started adding unique ids for each session (each sessions we generatean id through a hash and store it with wearable id show code) link the ressource zionteams
 database 1: storring the data to be repeated to display
-2:connecting our unique iids to the all of the users wearable ids
+<img width="1246" alt="database2" src="https://user-images.githubusercontent.com/58296040/176876800-d199ed7c-d7d9-4246-91d2-205d1077d3e6.png">
+<img width="1255" alt="database1" src="https://user-images.githubusercontent.com/58296040/176876828-12e0c3f9-20ec-406d-b167-8b3fca539318.png">
 
-5- Redesign with template habitdash
+*2:connecting our unique iids to the all of the users wearable ids
+
+*5- Redesign with template habitdash
 show new design and template given by alex
 without suggestions
 
@@ -131,8 +134,8 @@ without suggestions
 
 
 
-7- Health observations and suggestions 
+*7- Health observations and suggestions 
 sc suggestions 
-8-analytics pages for further analysis and vsualisation 
+*8-analytics pages for further analysis and vsualisation 
 <img width="458" alt="Screenshot 2022-07-01 at 12 09 13" src="https://user-images.githubusercontent.com/58296040/176874941-6fbe13ff-81ef-4d00-8c8f-6bebd40fb307.png">
 
