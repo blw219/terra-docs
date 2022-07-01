@@ -6,11 +6,9 @@ The task is left up to us to decide how we use data available to us and what ana
 
  The idea is to create a website to view this on with the potential to move this to an app in the future. For the backend Node.js was agreed on while frontend would be implemented using React. We will also need to have a database which we can pull data from to display our analysis on the website. This will also involve authentication via the backend to ensure use of a Terra account. From this we were able to decide on factors to consider:
 
-**Accurate and relevant data**
-
-**Straight forward User Interface in adequation with terra's design**
-
-**Interesting  dashboard for health insights**
+# Robust algorithm
+Our statiistical algorithm runs each tme new data is uploaded , searchng for underlyijng relaionshps in activity, sleep, weight and other habits. Using Linear regresssion , scatter plots , impact scorres or sampliing peiods.
+# TODO ADD BACKEND
 
 # Frontend
 
@@ -23,3 +21,4 @@ In the nutrition section there is a pie chart with two rings representing the us
 The last section is activity, which has a horizontal stacked bar chart and a vertical bar chart. The stacked chart tracks vigorous activity minutes over a month and displays the daily averages for each week, giving a percentage breakdown of activity for each week. The other chart has two datasets of steps and distance walked and run for each day over week with a total given for each above. This also has the option to remove each dataset by clicking on the monthly total.
 
 The website also comes with a sidebar that can be opened and has links for the home page, the analytics page, the terra widget where users sign into their wearable accounts as well as a login page to sign into their account with our website.
+
